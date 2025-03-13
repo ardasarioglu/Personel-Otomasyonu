@@ -1,0 +1,135 @@
+[
+  {
+    "type": "zam",
+    "value": "5",
+    "userId": "102",
+    "isim": "Ahmet",
+    "soyisim": "Kaya"
+  },
+  {
+    "type": "zam",
+    "value": "8",
+    "userId": "104",
+    "isim": "Emre",
+    "soyisim": "Çelik"
+  },
+  {
+    "type": "izin",
+    "value": "5",
+    "userId": "105",
+    "isim": "Ayşe",
+    "soyisim": "Yıldız"
+  },
+  {
+    "type": "zam",
+    "value": "6",
+    "userId": "106",
+    "isim": "Mehmet",
+    "soyisim": "Kara"
+  },
+  {
+    "type": "izin",
+    "value": "2",
+    "userId": "107",
+    "isim": "Fatma",
+    "soyisim": "Demir"
+  },
+  {
+    "type": "zam",
+    "value": "12",
+    "userId": "109",
+    "isim": "Canan",
+    "soyisim": "Şahin"
+  },
+  {
+    "type": "izin",
+    "value": "4",
+    "userId": "110",
+    "isim": "Hakan",
+    "soyisim": "Güçlü"
+  },
+  {
+    "type": "zam",
+    "value": "8",
+    "userId": "111",
+    "isim": "Elif",
+    "soyisim": "Aydın"
+  },
+  {
+    "type": "zam",
+    "value": "10",
+    "userId": "112",
+    "isim": "Oğuz",
+    "soyisim": "Yalçın"
+  },
+  {
+    "type": "izin",
+    "value": "3",
+    "userId": "113",
+    "isim": "Berna",
+    "soyisim": "Eren"
+  },
+  {
+    "type": "zam",
+    "value": "5",
+    "userId": "114",
+    "isim": "Deniz",
+    "soyisim": "Sezer"
+  },
+  {
+    "type": "zam",
+    "value": "7",
+    "userId": "115",
+    "isim": "Yusuf",
+    "soyisim": "Arslan"
+  },
+  {
+    "type": "izin",
+    "value": "6",
+    "userId": "116",
+    "isim": "Hale",
+    "soyisim": "Tan"
+  },
+  {
+    "type": "izin",
+    "value": "5",
+    "userId": "118",
+    "isim": "Sevgi",
+    "soyisim": "Yılmaz"
+  },
+  {
+    "type": "zam",
+    "value": "3",
+    "userId": "119",
+    "isim": "Bora",
+    "soyisim": "Öztürk"
+  },
+  {
+    "type": "zam",
+    "value": "9",
+    "userId": "120",
+    "isim": "Ceren",
+    "soyisim": "Doğan"
+  },
+  {
+    "type": "izin",
+    "value": "2",
+    "userId": "121",
+    "isim": "Serkan",
+    "soyisim": "Tuna"
+  },
+  {
+    "type": "zam",
+    "value": "15",
+    "userId": "107",
+    "isim": "Fatma",
+    "soyisim": "Demir"
+  },
+  {
+    "type": "zam",
+    "value": "20",
+    "userId": "102",
+    "isim": "Ahmet",
+    "soyisim": "Kaya"
+  }
+]

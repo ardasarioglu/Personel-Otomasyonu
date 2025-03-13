@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "isim": "Ahmet",
+    "soyisim": "Yılmaz",
+    "eposta": "ahmet.yilmaz@example.com",
+    "sifre": "123456",
+    "telefon": 5551234567
+  },
+  {
+    "id": 2,
+    "isim": "Mehmet",
+    "soyisim": "Kaya",
+    "eposta": "mehmet.kaya@example.com",
+    "sifre": "password123",
+    "telefon": 5557654321
+  }
+]

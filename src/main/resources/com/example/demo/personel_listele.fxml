@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controllers.personel_listeleController">
+    <children>
+        <TableView fx:id="personelTable" layoutX="5.0" layoutY="58.0" prefHeight="622.0" prefWidth="1267.0">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="50.0" text="ID" />
+                <TableColumn fx:id="isimColumn" prefWidth="120.0" text="İsim" />
+                <TableColumn fx:id="soyisimColumn" prefWidth="120.0" text="Soyisim" />
+                <TableColumn fx:id="departmanColumn" prefWidth="150.0" text="Departman" />
+                <TableColumn fx:id="pozisyonColumn" prefWidth="150.0" text="Pozisyon" />
+                <TableColumn fx:id="maasColumn" prefWidth="100.0" text="Maaş" />
+                <TableColumn fx:id="izinGunuColumn" prefWidth="80.0" text="İzin Günü" />
+                <TableColumn fx:id="epostaColumn" prefWidth="220.0" text="E-Posta" />
+                <TableColumn fx:id="telefonColumn" prefWidth="150.0" text="Telefon" />
+            </columns>
+        </TableView>
+        <Button fx:id="anaMenuButton" layoutX="14.0" mnemonicParsing="false" onAction="#anaMenu" prefHeight="30.0" prefWidth="160.0" text="Ana Menü">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+
+    </children>
+</AnchorPane>

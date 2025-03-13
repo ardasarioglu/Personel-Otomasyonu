@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controllers.yonetici_menuController">
+   <children>
+      <Button layoutX="545.0" layoutY="338.0" mnemonicParsing="false" onAction="#personelleriListele" prefHeight="45.0" prefWidth="190.0" text="Personelleri Listele">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="545.0" layoutY="413.0" mnemonicParsing="false" onAction="#personelEkle" prefHeight="45.0" prefWidth="190.0" text="Personel Ekle">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="657.0" layoutY="188.0" mnemonicParsing="false" onAction="#personelDuzenle" prefHeight="45.0" prefWidth="190.0" text="Personel Düzenle">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="1161.0" layoutY="662.0" mnemonicParsing="false" onAction="#cikis" text="Çıkış Yap">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="544.0" layoutY="488.0" mnemonicParsing="false" onAction="#toplantiDuzenle" prefHeight="45.0" prefWidth="190.0" text="Toplantı Düzenle">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="duzenleField" layoutX="470.0" layoutY="199.0" />
+      <Label layoutX="433.0" layoutY="196.0" text="ID:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="656.0" layoutY="257.0" mnemonicParsing="false" onAction="#personelCikart" prefHeight="45.0" prefWidth="190.0" text="Personel Çıkart">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="cikartField" layoutX="469.0" layoutY="268.0" />
+      <Label layoutX="432.0" layoutY="265.0" text="ID:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="544.0" layoutY="563.0" mnemonicParsing="false" onAction="#talepler" prefHeight="45.0" prefWidth="190.0" text="Talepler">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

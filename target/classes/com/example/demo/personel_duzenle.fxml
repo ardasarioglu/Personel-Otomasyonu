@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controllers.personel_duzenleController">
+   <children>
+      <Label fx:id="maasLabel" layoutX="289.0" layoutY="408.0" text="Maaş: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="izingunuLabel" layoutX="289.0" layoutY="478.0" text="Kalan izin günü:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="departmanLabel" layoutX="289.0" layoutY="268.0" text="Departman: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="pozisyonLabel" layoutX="289.0" layoutY="338.0" text="Pozisyon: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="departmanField" layoutX="769.0" layoutY="276.0" prefHeight="30.0" />
+      <TextField fx:id="izingunuField" layoutX="769.0" layoutY="486.0" prefHeight="30.0" />
+      <TextField fx:id="maasField" layoutX="769.0" layoutY="416.0" prefHeight="30.0" />
+      <TextField fx:id="pozisyonField" layoutX="769.0" layoutY="346.0" prefHeight="30.0" />
+      <Button layoutX="795.0" layoutY="556.0" mnemonicParsing="false" onAction="#kaydet" text="Kaydet">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="idLabel" layoutX="356.0" layoutY="118.0" text="ID:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="isimLabel" layoutX="513.0" layoutY="118.0" text="İsim: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="soyisimLabel" layoutX="769.0" layoutY="118.0" text="Soyisim: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#anaMenu" text="Ana Menü">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controllers.taleplerController">
+   <children>
+      <TableView fx:id="tableView" layoutX="87.0" layoutY="115.0" prefHeight="346.0" prefWidth="1110.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="33.0" text="ID" />
+          <TableColumn fx:id="isimColumn" prefWidth="230.0" text="İsim" />
+            <TableColumn fx:id="soyisimColumn" prefWidth="230.0" text="Soyisim" />
+            <TableColumn fx:id="talepColumn" prefWidth="632.0" text="Talep" />
+        </columns>
+      </TableView>
+      <TextField fx:id="idTextField" layoutX="530.0" layoutY="529.0" />
+      <Button layoutX="704.0" layoutY="529.0" mnemonicParsing="false" onAction="#onaylaButtonClick" text="Onayla" />
+      <Label layoutX="449.0" layoutY="520.0" text="ID:">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="34.0" layoutY="34.0" mnemonicParsing="false" onAction="#anaMenu" text="Ana Menü">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="778.0" layoutY="529.0" mnemonicParsing="false" onAction="#reddetButtonClick" text="Reddet" />
+   </children>
+</AnchorPane>

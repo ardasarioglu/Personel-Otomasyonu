@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controllers.yonetici_login_ekraniController">
+   <children>
+      <TextField fx:id="epostaField" layoutX="630.0" layoutY="220.0">
+         <font>
+            <Font size="17.0" />
+         </font></TextField>
+      <Label layoutX="412.0" layoutY="220.0" text="E-Posta">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="415.0" layoutY="300.0" text="Parola: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="568.0" layoutY="73.0" text="Giriş Yap">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="578.0" layoutY="380.0" mnemonicParsing="false" onAction="#login" text="Giriş Yap">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="562.0" layoutY="450.0" mnemonicParsing="false" onAction="#sifre_olustur" text="Şifre Oluştur">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="544.0" layoutY="520.0" mnemonicParsing="false" onAction="#sifre_olustur" text="Şifremi Unuttum">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="44.0" layoutY="44.0" mnemonicParsing="false" onAction="#geri_don" text="Geri Dön">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="bilgiLabel" layoutX="517.0" layoutY="153.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="parolaField" layoutX="630.0" layoutY="304.0" prefHeight="38.0" prefWidth="211.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controllers.personel_ekleController">
+   <children>
+      <Label layoutX="360.0" layoutY="502.0" text="Maaş: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="360.0" layoutY="572.0" text="Kalan izin günü:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="362.0" text="E-Posta:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="222.0" text="Departman: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="292.0" text="Pozisyon: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="432.0" text="Telefon Numarası: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="departmanField" layoutX="700.0" layoutY="230.0" prefHeight="30.0" prefWidth="200.0" />
+      <TextField fx:id="pozisyonField" layoutX="700.0" layoutY="307.0" prefHeight="30.0" prefWidth="200.0" />
+      <TextField fx:id="epostaField" layoutX="700.0" layoutY="370.0" prefHeight="30.0" prefWidth="200.0" />
+      <TextField fx:id="telefonField" layoutX="700.0" layoutY="440.0" prefHeight="30.0" prefWidth="200.0" />
+      <TextField fx:id="maasField" layoutX="700.0" layoutY="510.0" prefHeight="30.0" prefWidth="200.0" />
+      <TextField fx:id="izingunuField" layoutX="700.0" layoutY="580.0" prefHeight="30.0" prefWidth="200.0" />
+      <Button layoutX="588.0" layoutY="632.0" mnemonicParsing="false" onAction="#kaydet" text="Kaydet">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#anaMenu" text="Ana Menü">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="357.0" layoutY="82.0" text="İsim: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="152.0" text="Soyisim: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="isimField" layoutX="700.0" layoutY="92.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="soyisimField" layoutX="700.0" layoutY="162.0" prefHeight="25.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
